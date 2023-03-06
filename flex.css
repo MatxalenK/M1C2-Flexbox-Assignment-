@@ -1,0 +1,170 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #73dab2;
+}
+
+.flex {
+    margin: 10px;
+}
+
+/* ONE */
+.flexOne {
+    display: flex;
+}
+.flexOne div{
+    display: flex;
+    margin: 5px;
+}
+
+/* TWO */
+.flexTwo {
+    display: flex;
+    flex-direction: column;
+}
+.flexTwo div{
+    display: flex;
+    margin: 2px;
+}
+
+/* THREE */
+.flexThree {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+
+}
+.flexThree div{
+    display: flex;
+    margin: 2px;
+   
+}
+
+/* FOUR */
+.flexFour {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexFour div {
+    display: flex;
+    width: 350px;
+}
+.flexFour .square {
+    width: 100px;
+    background-color: #3d8b6d;
+    margin: 5px;
+}
+
+
+/* FIVE */
+.flexFive {
+    display: flex;
+    width: 350px;
+}
+.flexFive .item {
+    display: flex;
+    background-color: #0b6643;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+#grow {
+    flex-grow: 2;
+}
+
+
+
+/* SIX */
+.flexSix {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    background-color: #f1f1f1;
+}
+
+
+.flexSix .one {
+    display: flex;
+    justify-content: space-around;
+}
+.flexSix .two {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d6d6d6;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.flexSix .three {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* SEVEN */
+.flexSeven {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 400px;
+    background-color: #f1f1f1;
+
+}
+.flexSeven div {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.flexSeven .one {
+    justify-content: center;
+}
+.flexSeven .two {
+    justify-content: flex-end;
+    background-color: #d6d6d6;
+}
+.flexSeven .three {
+    justify-content: start;
+}
+.flexSeven .four {
+    justify-content: space-between;
+    background-color: #d6d6d6;
+}
+
+
+/* Eight */
+
+.flexEight {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background-color: #f1f1f1;
+
+}
+.flexEight .one {
+    display: flex;
+    align-items: center;
+}
+.flexEight .two {
+    display: flex;
+    align-items: flex-end;
+}
+.flexEight .three {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+/* NINE */
+.flexNine {
+    display: flex;
+    justify-content: space-evenly;
+    width: 450px;
+    height: 250px;
+    background-color: #f1f1f1;
+}
+#special {
+    align-self: flex-end;
+
+}
